@@ -37,15 +37,15 @@ Add an array within the tender object. This array must contain the following val
 
 ## Defining texts:
 
-**Title** | **Description**
---|--
-<position> Position | Position held by the official. This field is used to define the position occupied by the officials attending the clarification meeting.
-<clarificationMeetings> Clarification meetings | A list of the clarifications meetings related to the tender section.
-<clarificationMeeting> Clarification meeting | A clarification meeting is used to solve enquiries the tenderers may have about issues related to the call for proposals.
-<id> Meeting ID | A local identifier for this meeting, unique within this block.
-<date> Meeting date | The date on which the clarification meeting is held.
-<clarificationMeetingAttendees> Clarification meeting attendees | The tenderers or other actors attending the clarification meeting.
-<clarificationMeetingOfficials> Clarification meeting officials | The officials attending the clarification meeting.
+**Code** | **Title** | **Description**
+--|--|--
+position | Position | Position held by the official. This field is used to define the position occupied by the officials attending the clarification meeting.
+clarificationMeetings | Clarification meetings | A list of the clarifications meetings related to the tender section.
+clarificationMeeting | Clarification meeting | A clarification meeting is used to solve enquiries the tenderers may have about issues related to the call for proposals.
+id | Meeting ID | A local identifier for this meeting, unique within this block.
+date | Meeting date | The date on which the clarification meeting is held.
+clarificationMeetingAttendees | Clarification meeting attendees | The tenderers or other actors attending the clarification meeting.
+clarificationMeetingOfficials | Clarification meeting officials | The officials attending the clarification meeting.
 
 ## Issues 
 

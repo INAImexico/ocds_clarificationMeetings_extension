@@ -5,6 +5,9 @@
   "description": {
     "en": "In Mexico, it is mandatory to carry out at least one meeting of clarifications with voluntary assistance by the tenderers in order to answer questions related to the call for proposals or the modifications that have been made to it. These meetings are made in competitive procedures and are usually made before the period when the tender is open for submissions. See discussion in https://github.com/open-contracting/standard/issues/621"
   },
+  "compatibility": [
+    "1.1"
+  ],
   "documentationUrl": {
     "en": "https://github.com/INAImexico/ocds_clarificationMeetings_extension"
   },

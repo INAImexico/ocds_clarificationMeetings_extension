@@ -4,6 +4,9 @@
       "title": "Clarification meeting",
       "type": "object",
       "description": "A clarification meeting is used to solve enquiries the tenderers may have about issues related to the call for proposals.",
+      "required": [
+        "id"
+      ],
       "properties": {
         "id": {
           "title": "Meeting ID",

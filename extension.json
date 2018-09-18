@@ -12,6 +12,9 @@
     "en": "https://github.com/INAImexico/ocds_clarificationMeetings_extension"
   },
   "codelists": [
-    "+partyRole.csv",
+    "+partyRole.csv"
+  ],
+  "schemas": [
+    "release-schema.json"
   ]
 }

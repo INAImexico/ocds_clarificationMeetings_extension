@@ -26,7 +26,7 @@
           ],
           "format": "date-time"
         },
-        "clarificationMeetingAttendees": {
+        "attendees": {
           "title": "Clarification meeting attendees",
           "description": "The tenderers or other actors attending the clarification meeting.",
           "type": "array",
@@ -34,7 +34,7 @@
             "$ref": "#/definitions/OrganizationReference"
           }
         },
-        "clarificationMeetingOfficials": {
+        "officials": {
           "title": "Clarification meeting officials",
           "description": "The officials attending the clarification meeting.",
           "type": "array",

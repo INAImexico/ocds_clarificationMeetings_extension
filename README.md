@@ -33,9 +33,9 @@ Add an array within the tender object. This array must contain the following val
     - ClarificationMeeting {object}
       - id (Type: string, integer)
       - date  (format : date-time)(Type : string, null)
-      - clarificationMeetingAttendees [array]
+      - attendees [array]
         - $ref : #/definitions/OrganizationReference
-      - clarificationMeetingOfficials[array]
+      - officials[array]
         - $ref : #/definitions/OrganizationReference
 
 ## Defining texts:
@@ -47,8 +47,8 @@ clarificationMeetings | Clarification meetings | A list of the clarifications me
 ClarificationMeeting | Clarification meeting | A clarification meeting is used to solve enquiries the tenderers may have about issues related to the call for proposals.
 id | Meeting ID | A local identifier for this meeting, unique within this block.
 date | Meeting date | The date on which the clarification meeting is held.
-clarificationMeetingAttendees | Clarification meeting attendees | The tenderers or other actors attending the clarification meeting.
-clarificationMeetingOfficials | Clarification meeting officials | The officials attending the clarification meeting.
+attendees | Clarification meeting attendees | The tenderers or other actors attending the clarification meeting.
+officials | Clarification meeting officials | The officials attending the clarification meeting.
 
 ## Issues 
 
